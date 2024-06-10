@@ -9,3 +9,16 @@ JSAI2024 - 学会の資料およびパワポ
 src - ソースコード
 
 </details>
+
+
+<details>
+
+自主的に作成してみたもの
+
+<summary>Product</summary>
+
+assets - 画像等
+
+pages - リンク先
+
+</details>
