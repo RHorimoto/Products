@@ -20,23 +20,16 @@
 1. [プロジェクトについて](#プロジェクトについて)
 2. [ディレクトリ構成](#ディレクトリ構成)
 
-<!-- README 作成方法の参考ページのリンク -->
-<br />
-<div align="right">
-    <a href="https://qiita.com/shun198/items/c983c713452c041ef787"><strong>README 作成方法の参考ページ »</strong></a>
-</div>
-<br />
-
 
 ## プロジェクトについて
 
-###【研究】Knowledge Graph (KG)
+### 【研究】Knowledge Graph (KG)
 
 <details>
 
 <summary>言語モデル BERT の Masked Language Modeling を用いた KG の自動補完手法</summary>
 
-aaaa
+<![KGC model1 with MLM of BERT](https://myoctocat.com/assets/images/base-octocat.svg)>
 
 </details>
 
@@ -56,7 +49,7 @@ cccc
 
 </details>
 
-###【Products】Hobby
+### 【Products】Hobby
 
 <details>
 
@@ -186,6 +179,13 @@ aaaa
         ├── mlm_tail.py
         └── requirements.txt
 </pre>
+
+<!-- README 作成方法の参考ページのリンク -->
+<br />
+<div align="right">
+    <a href="https://qiita.com/shun198/items/c983c713452c041ef787"><strong>README 作成方法の参考ページ »</strong></a>
+</div>
+<br />
 
 <p align="right">(<a href="#top">トップへ</a>)</p>
 
