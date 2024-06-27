@@ -29,7 +29,7 @@
 
 <summary>言語モデル BERT の Masked Language Modeling を用いた KG の自動補完手法</summary>
 
-<![KGC model1 with MLM of BERT](https://myoctocat.com/assets/images/base-octocat.svg)>
+<![KGC model1 with MLM of BERT](https://github.com/RHorimoto/Products/blob/main/%E7%A0%94%E7%A9%B6/KGC_MLM/assets/MLM_fine-tuning.png)>
 
 </details>
 
@@ -75,109 +75,115 @@ aaaa
 │       └── Ironman.html
 ├── README.md
 └── 研究
-    ├── JSAI2024
-    │   ├── 2024_JSAI.pptx
-    │   └── JSAI_2024.pdf
-    └── src_MLM_tail_predict
-        ├── data
-        │   ├── FB13
-        │   │   ├── dev.tsv
-        │   │   ├── entities.txt
-        │   │   ├── entity2text.txt
-        │   │   ├── entity2text_capital.txt
-        │   │   ├── entity2textshort.txt
-        │   │   ├── relation2text.txt
-        │   │   ├── relations.txt
-        │   │   ├── test.tsv
-        │   │   └── train.tsv
-        │   ├── FB15K
-        │   │   ├── FB15k_mid2description.txt
-        │   │   ├── FB15k_mid2name.txt
-        │   │   ├── dev.tsv
-        │   │   ├── entities.txt
-        │   │   ├── entity2id.txt
-        │   │   ├── entity2text.txt
-        │   │   ├── entity2textlong.txt
-        │   │   ├── relation2id.txt
-        │   │   ├── relation2text.txt
-        │   │   ├── relations.txt
-        │   │   ├── test.tsv
-        │   │   ├── test2id.txt
-        │   │   ├── train.tsv
-        │   │   ├── train2id.txt
-        │   │   └── valid2id.txt
-        │   ├── FB15k-237
-        │   │   ├── FB15k_mid2description.txt
-        │   │   ├── FB15k_mid2name.txt
-        │   │   ├── dev.tsv
-        │   │   ├── entities.txt
-        │   │   ├── entity2text.txt
-        │   │   ├── entity2textlong.txt
-        │   │   ├── relation2text.txt
-        │   │   ├── relations.txt
-        │   │   ├── test.tsv
-        │   │   └── train.tsv
-        │   ├── WN11
-        │   │   ├── dev.tsv
-        │   │   ├── entities.txt
-        │   │   ├── entity2text.txt
-        │   │   ├── relation2text.txt
-        │   │   ├── relations.txt
-        │   │   ├── test.tsv
-        │   │   ├── train.tsv
-        │   │   ├── train_1.tsv
-        │   │   ├── train_10.tsv
-        │   │   ├── train_15.tsv
-        │   │   ├── train_20.tsv
-        │   │   └── train_5.tsv
-        │   ├── WN18
-        │   │   ├── dev.tsv
-        │   │   ├── entities.txt
-        │   │   ├── entity2id.txt
-        │   │   ├── entity2text.txt
-        │   │   ├── relation2id.txt
-        │   │   ├── relation2text.txt
-        │   │   ├── relations.txt
-        │   │   ├── test.tsv
-        │   │   ├── test2id.txt
-        │   │   ├── train.tsv
-        │   │   ├── train2id.txt
-        │   │   ├── valid2id.txt
-        │   │   └── wordnet-mlj12-definitions.txt
-        │   ├── WN18RR
-        │   │   ├── all_triples.txt
-        │   │   ├── dev.tsv
-        │   │   ├── dev_triples.txt
-        │   │   ├── entities.txt
-        │   │   ├── entity2text.txt
-        │   │   ├── relation2text.txt
-        │   │   ├── relations.txt
-        │   │   ├── test.tsv
-        │   │   ├── test_triples.txt
-        │   │   ├── train.tsv
-        │   │   ├── train_dev_triples.txt
-        │   │   ├── train_triples.txt
-        │   │   └── wordnet-mlj12-definitions.txt
-        │   ├── YAGO3-10
-        │   │   ├── dev.tsv
-        │   │   ├── entities.txt
-        │   │   ├── entity2text.txt
-        │   │   ├── relation2text.txt
-        │   │   ├── relations.txt
-        │   │   ├── test.tsv
-        │   │   └── train.tsv
-        │   └── umls
-        │       ├── dev.tsv
-        │       ├── entities.txt
-        │       ├── entity2text.txt
-        │       ├── entity2textlong.txt
-        │       ├── relation2text.txt
-        │       ├── relations.txt
-        │       ├── test.tsv
-        │       └── train.tsv
-        ├── e.sh
-        ├── mlm_tail.py
-        └── requirements.txt
+    └── KGC_MLM
+        ├── JSAI2024
+        │   ├── 2024_JSAI.pptx
+        │   └── JSAI_2024.pdf
+        ├── assets
+        │   ├── MLM_fine-tuning.png
+        │   ├── model1.png
+        │   └── model2.png
+        └── src
+            ├── data
+            │   ├── FB13
+            │   │   ├── dev.tsv
+            │   │   ├── entities.txt
+            │   │   ├── entity2text.txt
+            │   │   ├── entity2text_capital.txt
+            │   │   ├── entity2textshort.txt
+            │   │   ├── relation2text.txt
+            │   │   ├── relations.txt
+            │   │   ├── test.tsv
+            │   │   └── train.tsv
+            │   ├── FB15K
+            │   │   ├── FB15k_mid2description.txt
+            │   │   ├── FB15k_mid2name.txt
+            │   │   ├── dev.tsv
+            │   │   ├── entities.txt
+            │   │   ├── entity2id.txt
+            │   │   ├── entity2text.txt
+            │   │   ├── entity2textlong.txt
+            │   │   ├── relation2id.txt
+            │   │   ├── relation2text.txt
+            │   │   ├── relations.txt
+            │   │   ├── test.tsv
+            │   │   ├── test2id.txt
+            │   │   ├── train.tsv
+            │   │   ├── train2id.txt
+            │   │   └── valid2id.txt
+            │   ├── FB15k-237
+            │   │   ├── FB15k_mid2description.txt
+            │   │   ├── FB15k_mid2name.txt
+            │   │   ├── dev.tsv
+            │   │   ├── entities.txt
+            │   │   ├── entity2text.txt
+            │   │   ├── entity2textlong.txt
+            │   │   ├── relation2text.txt
+            │   │   ├── relations.txt
+            │   │   ├── test.tsv
+            │   │   └── train.tsv
+            │   ├── WN11
+            │   │   ├── dev.tsv
+            │   │   ├── entities.txt
+            │   │   ├── entity2text.txt
+            │   │   ├── relation2text.txt
+            │   │   ├── relations.txt
+            │   │   ├── test.tsv
+            │   │   ├── train.tsv
+            │   │   ├── train_1.tsv
+            │   │   ├── train_10.tsv
+            │   │   ├── train_15.tsv
+            │   │   ├── train_20.tsv
+            │   │   └── train_5.tsv
+            │   ├── WN18
+            │   │   ├── dev.tsv
+            │   │   ├── entities.txt
+            │   │   ├── entity2id.txt
+            │   │   ├── entity2text.txt
+            │   │   ├── relation2id.txt
+            │   │   ├── relation2text.txt
+            │   │   ├── relations.txt
+            │   │   ├── test.tsv
+            │   │   ├── test2id.txt
+            │   │   ├── train.tsv
+            │   │   ├── train2id.txt
+            │   │   ├── valid2id.txt
+            │   │   └── wordnet-mlj12-definitions.txt
+            │   ├── WN18RR
+            │   │   ├── all_triples.txt
+            │   │   ├── dev.tsv
+            │   │   ├── dev_triples.txt
+            │   │   ├── entities.txt
+            │   │   ├── entity2text.txt
+            │   │   ├── relation2text.txt
+            │   │   ├── relations.txt
+            │   │   ├── test.tsv
+            │   │   ├── test_triples.txt
+            │   │   ├── train.tsv
+            │   │   ├── train_dev_triples.txt
+            │   │   ├── train_triples.txt
+            │   │   └── wordnet-mlj12-definitions.txt
+            │   ├── YAGO3-10
+            │   │   ├── dev.tsv
+            │   │   ├── entities.txt
+            │   │   ├── entity2text.txt
+            │   │   ├── relation2text.txt
+            │   │   ├── relations.txt
+            │   │   ├── test.tsv
+            │   │   └── train.tsv
+            │   └── umls
+            │       ├── dev.tsv
+            │       ├── entities.txt
+            │       ├── entity2text.txt
+            │       ├── entity2textlong.txt
+            │       ├── relation2text.txt
+            │       ├── relations.txt
+            │       ├── test.tsv
+            │       └── train.tsv
+            ├── e.sh
+            ├── mlm_tail.py
+            └── requirements.txt
+
 </pre>
 
 <!-- README 作成方法の参考ページのリンク -->
