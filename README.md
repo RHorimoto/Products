@@ -71,6 +71,7 @@ aaaa
 
 ## ディレクトリ構成
 
+<pre>
 .
 ├── Products
 │   ├── assets
@@ -184,6 +185,7 @@ aaaa
         ├── e.sh
         ├── mlm_tail.py
         └── requirements.txt
+</pre>
 
 <p align="right">(<a href="#top">トップへ</a>)</p>
 
