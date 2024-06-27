@@ -23,13 +23,34 @@
 
 ## プロジェクトについて
 
-### 【研究】Knowledge Graph (KG)
+### 【studies】Knowledge Graph (KG)
 
 <details>
 
 <summary>言語モデル BERT の Masked Language Modeling を用いた KG の自動補完手法</summary>
 
-<![KGC model1 with MLM of BERT](https://github.com/RHorimoto/Products/blob/main/%E7%A0%94%E7%A9%B6/KGC_MLM/assets/MLM_fine-tuning.png)>
+[2024 年度人工知能学会全国大会 (第 38 回)](https://www.ai-gakkai.or.jp/jsai2024/) で発表.
+
+<!-- 2024 年度人工知能学会全国大会 (第 38 回) のリンク -->
+<br />
+<div align="left">
+    <a href="https://github.com/RHorimoto/Products/tree/main/studies/KGC_MLM/JSAI2024"><strong>発表資料 »</strong></a>
+</div>
+<br />
+
+* MLM を利用した BERT の Fine-tuning 手法
+
+![Fine-tuning of MLM](https://github.com/RHorimoto/Products/blob/main/studies/KGC_MLM/assets/MLM_fine-tuning.png)
+
+* KG の自動補完手法 model1
+
+![KGC model1 with MLM of BERT](https://github.com/RHorimoto/Products/blob/main/studies/KGC_MLM/assets/model1.png)
+
+* KG の自動補完手法 model2
+
+![KGC model2 with MLM of BERT](https://github.com/RHorimoto/Products/blob/main/studies/KGC_MLM/assets/model2.png)
+
+モデルの改善を目標に研究を続行. 
 
 </details>
 
@@ -37,7 +58,9 @@
 
 <summary>文章からの KG 自動生成およびその可視化による文章理解補助</summary>
 
-bbbb
+現在研究中. 
+
+[ナレッジグラフ推論チャレンジ 2024](https://challenge.knowledge-graph.jp/2024/) に参加予定.
 
 </details>
 
@@ -45,7 +68,7 @@ bbbb
 
 <summary>KG の質問システムへの応用</summary>
 
-cccc
+Graph Retrieval Augmented Generation (Graph RAG) として KG の応用を検討中. 
 
 </details>
 
@@ -55,7 +78,7 @@ cccc
 
 <summary>HTML の勉強</summary>
 
-aaaa
+趣味の映画鑑賞 (MARVEL movies) について web ページを作成中. 
 
 </details>
 
