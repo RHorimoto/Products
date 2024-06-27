@@ -38,9 +38,17 @@
 
 aaaa
 
+</details>
+
+<details>
+
 <summary>文章からの KG 自動生成およびその可視化による文章理解補助</summary>
 
 bbbb
+
+</details>
+
+<details>
 
 <summary>KG の質問システムへの応用</summary>
 
@@ -63,56 +71,119 @@ aaaa
 
 ## ディレクトリ構成
 
-<!-- Treeコマンドを使ってディレクトリ構成を記載 -->
-
-❯ tree -a -I "node_modules|.next|.git|.pytest_cache|static" -L 2
 .
-├── .devcontainer
-│   └── devcontainer.json
-├── .env
-├── .github
-│   ├── action
-│   ├── release-drafter.yml
-│   └── workflows
-├── .gitignore
-├── Makefile
+├── Products
+│   ├── assets
+│   │   ├── ironman.jpg
+│   │   └── spiderman.jpg
+│   ├── marvel.html
+│   └── pages
+│       └── Ironman.html
 ├── README.md
-├── backend
-│   ├── .vscode
-│   ├── application
-│   ├── docs
-│   ├── manage.py
-│   ├── output
-│   ├── poetry.lock
-│   ├── project
-│   └── pyproject.toml
-├── containers
-│   ├── django
-│   ├── front
-│   ├── mysql
-│   └── nginx
-├── docker-compose.yml
-├── frontend
-│   ├── .gitignore
-│   ├── README.md
-│   ├── __test__
-│   ├── components
-│   ├── features
-│   ├── next-env.d.ts
-│   ├── package-lock.json
-│   ├── package.json
-│   ├── pages
-│   ├── postcss.config.js
-│   ├── public
-│   ├── styles
-│   ├── tailwind.config.js
-│   └── tsconfig.json
-└── infra
-    ├── .gitignore
-    ├── docker-compose.yml
-    ├── main.tf
-    ├── network.tf
-    └── variables.tf
+└── 研究
+    ├── JSAI2024
+    │   ├── 2024_JSAI.pptx
+    │   └── JSAI_2024.pdf
+    └── src_MLM_tail_predict
+        ├── data
+        │   ├── FB13
+        │   │   ├── dev.tsv
+        │   │   ├── entities.txt
+        │   │   ├── entity2text.txt
+        │   │   ├── entity2text_capital.txt
+        │   │   ├── entity2textshort.txt
+        │   │   ├── relation2text.txt
+        │   │   ├── relations.txt
+        │   │   ├── test.tsv
+        │   │   └── train.tsv
+        │   ├── FB15K
+        │   │   ├── FB15k_mid2description.txt
+        │   │   ├── FB15k_mid2name.txt
+        │   │   ├── dev.tsv
+        │   │   ├── entities.txt
+        │   │   ├── entity2id.txt
+        │   │   ├── entity2text.txt
+        │   │   ├── entity2textlong.txt
+        │   │   ├── relation2id.txt
+        │   │   ├── relation2text.txt
+        │   │   ├── relations.txt
+        │   │   ├── test.tsv
+        │   │   ├── test2id.txt
+        │   │   ├── train.tsv
+        │   │   ├── train2id.txt
+        │   │   └── valid2id.txt
+        │   ├── FB15k-237
+        │   │   ├── FB15k_mid2description.txt
+        │   │   ├── FB15k_mid2name.txt
+        │   │   ├── dev.tsv
+        │   │   ├── entities.txt
+        │   │   ├── entity2text.txt
+        │   │   ├── entity2textlong.txt
+        │   │   ├── relation2text.txt
+        │   │   ├── relations.txt
+        │   │   ├── test.tsv
+        │   │   └── train.tsv
+        │   ├── WN11
+        │   │   ├── dev.tsv
+        │   │   ├── entities.txt
+        │   │   ├── entity2text.txt
+        │   │   ├── relation2text.txt
+        │   │   ├── relations.txt
+        │   │   ├── test.tsv
+        │   │   ├── train.tsv
+        │   │   ├── train_1.tsv
+        │   │   ├── train_10.tsv
+        │   │   ├── train_15.tsv
+        │   │   ├── train_20.tsv
+        │   │   └── train_5.tsv
+        │   ├── WN18
+        │   │   ├── dev.tsv
+        │   │   ├── entities.txt
+        │   │   ├── entity2id.txt
+        │   │   ├── entity2text.txt
+        │   │   ├── relation2id.txt
+        │   │   ├── relation2text.txt
+        │   │   ├── relations.txt
+        │   │   ├── test.tsv
+        │   │   ├── test2id.txt
+        │   │   ├── train.tsv
+        │   │   ├── train2id.txt
+        │   │   ├── valid2id.txt
+        │   │   └── wordnet-mlj12-definitions.txt
+        │   ├── WN18RR
+        │   │   ├── all_triples.txt
+        │   │   ├── dev.tsv
+        │   │   ├── dev_triples.txt
+        │   │   ├── entities.txt
+        │   │   ├── entity2text.txt
+        │   │   ├── relation2text.txt
+        │   │   ├── relations.txt
+        │   │   ├── test.tsv
+        │   │   ├── test_triples.txt
+        │   │   ├── train.tsv
+        │   │   ├── train_dev_triples.txt
+        │   │   ├── train_triples.txt
+        │   │   └── wordnet-mlj12-definitions.txt
+        │   ├── YAGO3-10
+        │   │   ├── dev.tsv
+        │   │   ├── entities.txt
+        │   │   ├── entity2text.txt
+        │   │   ├── relation2text.txt
+        │   │   ├── relations.txt
+        │   │   ├── test.tsv
+        │   │   └── train.tsv
+        │   └── umls
+        │       ├── dev.tsv
+        │       ├── entities.txt
+        │       ├── entity2text.txt
+        │       ├── entity2textlong.txt
+        │       ├── relation2text.txt
+        │       ├── relations.txt
+        │       ├── test.tsv
+        │       └── train.tsv
+        ├── e.sh
+        ├── mlm_tail.py
+        └── requirements.txt
 
 <p align="right">(<a href="#top">トップへ</a>)</p>
 
